@@ -1,5 +1,5 @@
 import "./Menu.css"
-import logo from "../assets/logo.png";
+import logo from "../assets/images/logo.png";
 import arrow from "../assets/icons/arrow-right.svg";
 
 function Menu() {

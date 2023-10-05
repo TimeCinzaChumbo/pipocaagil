@@ -4,10 +4,51 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import { createBrowserRouter, RouterProvider, Route } from 'react-router-dom';
+
+import WhoWeAre from './routes/WhoWeAre';
+import Episodes from './routes/Episodes';
+import PhotoGallery from './routes/PhotoGallery';
+import Contacts from './routes/Contacts';
+import Subscribers from './routes/Subscribers';
+
+const router = createBrowserRouter([
+  {
+    path: "/pipocaagil",
+    element: <App />
+  },
+
+  {
+    path: "whoweare",
+    element: <WhoWeAre />
+  },
+
+  {
+    path: "episodes",
+    element: <Episodes />
+  },
+
+  {
+    path: "photogallery",
+    element: <PhotoGallery />
+  },
+
+  {
+    path: "contacts",
+    element: <Contacts />
+  },
+
+  {
+    path: "subscribers",
+    element: <Subscribers />
+  }
+
+]);
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 

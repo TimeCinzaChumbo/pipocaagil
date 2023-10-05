@@ -24,7 +24,7 @@ function Menu() {
                         <a href="/contacts">Contatos</a>
                     </li>
                 </ul>
-                <a href="/subscribers"><button id="btn-subscriber">Sou assinante <img src={arrow} alt="" /></button></a>
+                <a href="/subscribers" id="btn-subscriber">Sou assinante <img src={arrow} alt="" /></a>
             </nav>
         </div>
     );

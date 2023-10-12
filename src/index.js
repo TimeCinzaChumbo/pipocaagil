@@ -1,47 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import ErrorPage from './routes/ErrorPage';
 import { createBrowserRouter, RouterProvider, Route } from 'react-router-dom';
-
-import WhoWeAre from './routes/WhoWeAre';
-import Episodes from './routes/Episodes';
-import PhotoGallery from './routes/PhotoGallery';
-import Contacts from './routes/Contacts';
-import Subscribers from './routes/Subscribers';
 
 const router = createBrowserRouter([
   {
-    path: "/pipocaagil",
-    element: <App />
+    path: "pipocaagil",
+    element: <App />,
+    errorElement: <ErrorPage />
   },
 
   {
-    path: "whoweare",
-    element: <WhoWeAre />
+    path: "/",
+    element: <App />,
+    errorElement: <ErrorPage />
   },
-
-  {
-    path: "episodes",
-    element: <Episodes />
-  },
-
-  {
-    path: "photogallery",
-    element: <PhotoGallery />
-  },
-
-  {
-    path: "contacts",
-    element: <Contacts />
-  },
-
-  {
-    path: "subscribers",
-    element: <Subscribers />
-  }
 
 ]);
 

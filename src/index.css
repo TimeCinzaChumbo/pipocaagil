@@ -1,8 +1,17 @@
 * {
   margin: 0;
+ 
   padding: 0;
   box-sizing: border-box;
   font-family: 'Nunito', sans-serif;
+}
+
+:root {
+  --white-color: #fdfdfd;
+  --gray-color: #4A4A4A;
+  --black-color: #3a3a3a;
+  --red-color: #d30808;
+
 }
 
 a {
@@ -11,4 +20,10 @@ a {
 
 ul {
   list-style: none;
+}
+
+
+body {
+  background-color: var(--white-color);
+  
 }

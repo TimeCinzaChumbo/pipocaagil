@@ -1,31 +1,41 @@
-import "./Menu.css"
-import logo from "../assets/images/logo.png";
-import arrow from "../assets/icons/arrow-right.svg";
+import styles from "./Menu.module.css";
+
+import logo from "../assets/images/logo/logo.png";
+import arrow from "../assets/images/icons/arrow-right.svg";
+
+import { Link as ScrollLink } from "react-scroll";
+import { Link as RouterLink } from "react-router-dom";
 
 function Menu() {
     return (
-        <div className="nav-container">
-            <img src={logo} alt="" id="logo" />
-            <nav className="nav">
-                <ul>
-                    <li className="nav-item">
-                        <a href="/">Home</a>
-                    </li>
-                    <li className="nav-item">
-                        <a href="/whoweare">Quem somos</a>
-                    </li>
-                    <li className="nav-item">
-                        <a href="/episodes">Episódios</a>
-                    </li>
-                    <li className="nav-item">
-                        <a href="/photogallery">Galeria de Fotos</a>
-                    </li>
-                    <li className="nav-item">
-                        <a href="/contacts">Contatos</a>
-                    </li>
-                </ul>
-                <a href="/subscribers" id="btn-subscriber">Sou assinante <img src={arrow} alt="" /></a>
-            </nav>
+        <div className={styles.menu}>
+            <div className={styles.menuContainer}>
+                <img src={logo} alt="" className={styles.log} />
+                <nav className={styles.nav}>
+                    <ul>
+                        <li className={styles.navItem}>
+                            <ScrollLink to="home" smooth={true} duration={500}>Home</ScrollLink>
+                        </li>
+                        <li className={styles.navItem}>
+                            <ScrollLink to="about" smooth={true} duration={500}>Quem somos</ScrollLink>
+                        </li>
+                        <li className={styles.navItem}>
+                            <RouterLink to="constructionPage" smooth={true} duration={500}>Episódios</RouterLink>
+                        </li>
+                        <li className={styles.navItem}>
+                            <RouterLink to="constructionPage" smooth={true} duration={500}>Galeria de Fotos</RouterLink>
+                        </li>
+                        <li className={styles.navItem}>
+                            <RouterLink to="constructionPage" smooth={true} duration={500}>Contatos</RouterLink>
+                        </li>
+                    </ul>
+                    <RouterLink to="/subscriber">
+                        <button className={styles.btnSubscriber}>Sou assinante
+                            <img src={arrow} alt="seta" />
+                        </button>
+                    </RouterLink>
+                </nav>
+            </div>
         </div>
     );
 };

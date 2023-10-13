@@ -5,9 +5,36 @@
     justify-content: center;
     width: 100%;
     min-height: 100vh;
+    text-align: center;
     background-color: #f3f3f3;
+    background-image: url("../assets/images/photos/image7.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.containerErrorPage {
+    padding: 2rem;
+    background-color: #ffffffa7;
+    border-radius: 8px;
 }
 
 .errorPage h1 {
     font-size: 5rem;
+    margin-bottom: 2rem;
+}
+
+.btnReturn p {
+    margin-bottom: 2rem;
+}
+
+.btnReturn button {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--white-color);
+    padding: 15px 40px;
+    border: 0;
+    border-radius: 8px;
+    background-color: var(--red-color);
+    cursor: pointer;
 }

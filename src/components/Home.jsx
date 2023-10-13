@@ -30,10 +30,10 @@ function Home() {
                 <div className={styles.podcastPlatforms}>
                     <p>Disponível nas plataformas de podcast</p>
                     <div className={styles.plataform}>
-                        <a href=""><img src={spotifyPodcast} alt="spotify" /></a>
-                        <a href=""><img src={applePodcast} alt="applePodcast" /></a>
-                        <a href=""><img src={overcastPodcast} alt="overcastPodcast" /></a>
-                        <a href=""><img src={googlePodcast} alt="googlePodcast" /></a>
+                        <a href="https://podcasters.spotify.com/pod/show/pipocaagil" target="_blank"><img src={spotifyPodcast} alt="spotify" /></a>
+                        <a href="https://podcasts.apple.com/us/podcast/pipoca-%C3%A1gil/id1490753920?uo=4" target="_blank"><img src={applePodcast} alt="applePodcast" /></a>
+                        <a href="https://overcast.fm/login" target="_blank"><img src={overcastPodcast} alt="overcastPodcast" /></a>
+                        <a href="https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xMGVmYjE4MC9wb2RjYXN0L3Jzcw==" target="_blank"><img src={googlePodcast} alt="googlePodcast" /></a>
                     </div>
                 </div>
             </div>

@@ -1,0 +1,99 @@
+.about {
+    max-width: 1440px;
+    margin: auto;
+    padding: 0 74px;
+}
+
+.content {
+    max-width: 1296px;
+    padding: 16px;
+    border-radius: 16px;
+    background-color: #f3f3f3;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 16px;
+    margin-bottom: 40px;
+}
+
+.header p {
+    max-width: 586px;
+    font-family: 'Nunito';
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--gray-color);
+}
+
+h2 {
+    font-family: 'Fugaz One', cursive;
+    font-size: 2.5rem;
+    width: 100%;
+    max-width: 586px;
+}
+
+.contentBiography {
+    display: flex;
+    gap: 24px;
+}
+
+/* seção a esquerda */
+.leftSection {
+    max-width: 636px;
+}
+
+.leftSection img {
+    width: 100%;
+}
+
+/* seção a direita */
+.rightSection {
+    width: 100%;
+    max-width: 636px;
+}
+
+.biography {
+    max-width: 572px;
+    margin-bottom: 40px;
+}
+
+.rightSection .biography p {
+    font-family: 'Nunito';
+    font-size: 1rem;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+
+.btnReadMore {
+    width: 194px;
+    height: 43px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--red-color);
+    padding: 10px 32px;
+    background-color: transparent;
+    border: 1px solid var(--red-color);
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 112px;
+}
+
+.socialMedia {
+    max-width: 368px;
+    padding: 0 16px;
+}
+
+.socialMedia p {
+    font-size: 1.125rem;
+    color: var(--gray-color);
+    margin-bottom: 24px;
+}
+
+.socialMedia figure {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}

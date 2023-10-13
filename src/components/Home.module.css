@@ -1,0 +1,228 @@
+.home {
+    display: flex;
+    max-width: 1440px;
+    max-height: 100vh;
+    gap: 70px;
+    margin: 0 auto;
+    padding: 0 72px;
+}
+
+/* info home */
+.infoHome {
+    width: 100%;
+    max-width: 504px;
+    height: auto;
+    margin-top: 163px;
+}
+
+.infoHome h1 {
+    font-size: 80px;
+    margin-bottom: 16px;
+    text-shadow: 5px -2px 0px rgba(255, 212, 94, 1), -3px -2px 0px rgba(255, 213, 99, 1), 2px 0px 0px rgba(255, 207, 96, 1), 0px 8px 7px rgba(255, 207, 96, 1);
+}
+
+.infoHome span {
+    font-family: 'Fugaz One', cursive;
+    color: var(--red-color);
+}
+
+.infoHome span:last-child {
+    color: var(--black-color);
+}
+
+.infoHome p {
+    font-size: 24px;
+    font-family: 'Nunito';
+    margin-bottom: 32px;
+}
+
+.btnKnowMore {
+    font-family: 'Nunito';
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--white-color);
+    padding: 16px 32px 16px 32px;
+    border: 0;
+    border-radius: 4px;
+    background-color: var(--red-color);
+    margin-bottom: 56px;
+    cursor: pointer;
+}
+
+.podcastPlatforms {
+    width: 330px;
+}
+
+.podcastPlatforms a:not(:last-child) {
+    margin-right: 40px;
+}
+
+.podcastPlatforms p {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+/* banner home */
+.bannerHome {
+    position: relative;
+}
+
+.banner {
+    width: 100%;
+    position: relative;
+}
+
+.banner .agileCircle {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-32%, -65%);
+    max-width: 818px;
+    height: auto;
+}
+
+.persona {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-17%, 32%);
+    z-index: 2;
+    max-width: 441px;
+}
+
+.modals {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+}
+
+.modal1 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-130%, -55%);
+    max-width: 246px;
+    height: 246px;
+}
+
+.modal2 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-75%, -533%);
+    width: 120.68px;
+    height: 131.83px;
+}
+
+.modal3 {
+    top: 50%;
+    left: 50%;
+    transform: translate(280%, -520%);
+    width: 126.1px;
+    height: 126.1px;
+}
+
+.boxShadow, .xBox {
+    -webkit-box-shadow: 1px 3px 10px -3px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 1px 3px 10px -3px rgba(0, 0, 0, 0.25);
+    box-shadow: 3px 3px 6px 0px rgba(0, 0, 0, 0.25);
+}
+
+.boxShadow {
+    border-radius: 16px;
+    z-index: 3;
+}
+
+.boxShadow1 {
+    width: 219px;
+    height: 219px;
+    background-color: #FFD25E;
+}
+
+.boxShadow2 {
+    width: 120.68px;
+    height: 120.68px;
+    background-color: #FFD25E;
+    rotate: -8.39deg;
+}
+
+.boxShadow3 {
+    width: 101.92px;
+    height: 101.92px;
+    background-color: #FFA4A4;
+    rotate: -8.39deg;
+}
+
+.boxes {
+    z-index: 5;
+    border-radius: 16px;
+}
+
+.box1 {
+    width: 219px;
+    height: 219px;
+    background-color: #BD88FF;
+    rotate: -7.43deg;
+}
+
+.box2 {
+    width: 120.68px;
+    height: 120.68px;
+    background-color: #FFA4A4;
+    rotate: 8.39deg;
+}
+
+.box3 {
+    width: 101px;
+    height: 101px;
+    rotate: -16.04deg;
+    text-align: right;
+    background-color: #FFDD85;
+}
+
+.bannerHome .podcastInvitationBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(38%, 27%);
+    z-index: 4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 306px;
+    height: 175px;
+    border-radius: 16px;
+    background-color: #fcfcfc;
+    -webkit-box-shadow: 1px 3px 10px -3px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 1px 3px 10px -3px rgba(0, 0, 0, 0.25);
+    box-shadow: 3px 3px 6px 0px rgba(0, 0, 0, 0.25);
+}
+
+.podcastInvitationBox .box-info {
+    width: 231px;
+}
+
+.bannerHome .podcastInvitationBox p {
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: var(--black-color);
+    margin-bottom: 16px;
+}
+
+.bannerHome .podcastInvitationBox button {
+    width: 100%;
+    font-size: 1rem;
+    font-family: 'Nunito';
+    font-weight: 700;
+    padding: 16px;
+    border: 0;
+    border-radius: 4px;
+    background-color: var(--red-color);
+    color: var(--white-color);
+    cursor: pointer;
+}

@@ -1,0 +1,58 @@
+.menu {
+    position: fixed;
+    width: 100%;
+    background-color: var(--white-color);
+    z-index: 5;
+}
+
+.menuContainer {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 72px;
+}
+
+.nav {
+    max-width: 804px;
+    display: flex;
+    align-items: center;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    width: 593px;
+    margin-right: 16px;
+}
+
+.nav ul a {
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.btnSubscriber {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    min-width: 195px;
+    min-height: 41px;
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: var(--red-color);
+    border: 1px solid var(--red-color);
+    border-radius: 4px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.btnSubscriber img {
+    max-width: 24px;
+    height: auto;
+}

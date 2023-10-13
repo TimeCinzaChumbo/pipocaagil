@@ -1,16 +1,22 @@
 {
   "files": {
-    "main.css": "/pipocaagil/static/css/main.073c9b0a.css",
-    "main.js": "/pipocaagil/static/js/main.00bc9c81.js",
+    "main.css": "/pipocaagil/static/css/main.8f6cab30.css",
+    "main.js": "/pipocaagil/static/js/main.8c42142e.js",
     "static/js/787.13294444.chunk.js": "/pipocaagil/static/js/787.13294444.chunk.js",
-    "static/media/logo.svg": "/pipocaagil/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/image6.png": "/pipocaagil/static/media/image6.bf9b47127b96cbb47f96.png",
+    "static/media/image1.png": "/pipocaagil/static/media/image1.8be941095e1062228e7a.png",
+    "static/media/image2.png": "/pipocaagil/static/media/image2.b78df229eda342a06cc8.png",
+    "static/media/image3.png": "/pipocaagil/static/media/image3.495ba3c98801bf59ec49.png",
+    "static/media/image4.png": "/pipocaagil/static/media/image4.557241176591aa784e41.png",
+    "static/media/logo.png": "/pipocaagil/static/media/logo.e76361f87b6c86b11d3e.png",
     "index.html": "/pipocaagil/index.html",
-    "main.073c9b0a.css.map": "/pipocaagil/static/css/main.073c9b0a.css.map",
-    "main.00bc9c81.js.map": "/pipocaagil/static/js/main.00bc9c81.js.map",
+    "static/media/arrow-right.svg": "/pipocaagil/static/media/arrow-right.013c53be075226525df085921f4bbd0b.svg",
+    "main.8f6cab30.css.map": "/pipocaagil/static/css/main.8f6cab30.css.map",
+    "main.8c42142e.js.map": "/pipocaagil/static/js/main.8c42142e.js.map",
     "787.13294444.chunk.js.map": "/pipocaagil/static/js/787.13294444.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.00bc9c81.js"
+    "static/css/main.8f6cab30.css",
+    "static/js/main.8c42142e.js"
   ]
 }

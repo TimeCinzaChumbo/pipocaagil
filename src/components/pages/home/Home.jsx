@@ -1,18 +1,19 @@
 // import "./Home.css";
-import styles from "./Home.module.css"
+import styles from "./Home.module.css";
 
-import spotifyPodcast from "../assets/images/podcastPlatforms/spotifyPodcast.png";
-import applePodcast from "../assets/images/podcastPlatforms/applePodcast.png";
-import overcastPodcast from "../assets/images/podcastPlatforms/overcastPodcast.png";
-import googlePodcast from "../assets/images/podcastPlatforms/googlePodcast.png";
+import spotifyPodcast from "../../../assets/images/podcastPlatforms/spotifyPodcast.png";
+import applePodcast from "../../../assets/images/podcastPlatforms/applePodcast.png";
+import overcastPodcast from "../../../assets/images/podcastPlatforms/overcastPodcast.png";
+import googlePodcast from "../../../assets/images/podcastPlatforms/googlePodcast.png";
 
-import personaImage from "../assets/images/photos/image1.png";
-import circleImage from "../assets/images/photos/image2.png";
-import popcorneBucketImage from "../assets/images/photos/image3.png";
-import ipodImage from "../assets/images/photos/image4.png";
-import microphoneImage from "../assets/images/photos/image5.png";
+import personaImage from "../../../assets/images/photos/ibson-cabral-braco-cruzado.png";
+import circleImage from "../../../assets/images/photos/image2.png";
+import popcorneBucketImage from "../../../assets/images/photos/image3.png";
+import ipodImage from "../../../assets/images/photos/image4.png";
+import microphoneImage from "../../../assets/images/photos/image5.png";
 
 import { Link as RouterLink } from "react-router-dom";
+import ButtonRouter from "../../common/button/ButtonRouter";
 
 function Home() {
 
@@ -23,9 +24,7 @@ function Home() {
 
                 <p>O podcast mais animado do mundo ágil vai te inspirar e acelerar seu conhecimento!</p>
 
-                <RouterLink to="/knowAbout">
-                    <button className={styles.btnKnowMore}>Saber mais sobre o pipoca ágil</button>
-                </RouterLink>
+                <ButtonRouter to="knowAbout" size="custom-size-large" color="custom-colors-red" text="Saber mais sobre o pipoca ágil" />
 
                 <div className={styles.podcastPlatforms}>
                     <p>Disponível nas plataformas de podcast</p>
@@ -39,13 +38,13 @@ function Home() {
             </div>
             <div className={styles.bannerHome}>
                 <div className={styles.banner}>
-                    <img className={styles.agileCircle} src={circleImage} alt="circulo" />
-                    <img className={styles.persona} src={personaImage} alt="pessoa" />
+                    <img className={styles.agileCircle} src={circleImage} loading="lazy" alt="circulo" />
+                    <img className={styles.persona} src={personaImage} loading="lazy" alt="pessoa" />
 
                     <div className={`${styles.modals} ${styles.modal1}`}>
                         <div className={`${styles.boxShadow} ${styles.boxShadow1}`}>
                             <div className={`${styles.boxes} ${styles.box1}`}>
-                                <img className="popcornBucket" src={popcorneBucketImage} alt="pipoca" />
+                                <img className="popcornBucket" src={popcorneBucketImage} loading="lazy" alt="pipoca" />
                             </div>
                         </div>
                     </div>
@@ -53,7 +52,7 @@ function Home() {
                     <div className={`${styles.modals} ${styles.modal2}`}>
                         <div className={`${styles.boxShadow} ${styles.boxShadow2}`}>
                             <div className={`${styles.boxes} ${styles.box2}`}>
-                                <img className="ipod" src={ipodImage} alt="ipod" />
+                                <img className="ipod" src={ipodImage} loading="lazy" alt="ipod" />
                             </div>
                         </div>
                     </div>
@@ -61,18 +60,17 @@ function Home() {
                     <div className={`${styles.modals} ${styles.modal3}`}>
                         <div className={`${styles.boxShadow} ${styles.boxShadow3}`}>
                             <div className={`${styles.boxes} ${styles.box3}`}>
-                                <img className="microphone" src={microphoneImage} alt="microfone" />
+                                <img className="microphone" src={microphoneImage} loading="lazy" alt="microfone" />
                             </div>
                         </div>
                     </div>
 
                     <div className={styles.podcastInvitationBox}>
                         <div className={styles.boxInfo}>
-                            <p>Agende um epísodio conosco!</p>
+                            <p>Agende um epísodio conosco!</p>                           
 
-                            <RouterLink to="/contact">
-                                <button>Contato</button>
-                            </RouterLink>
+                            <ButtonRouter to="/contact" size="custom-size-average" color="custom-colors-red" text="Contato" />
+
                         </div>
                     </div>
                 </div>

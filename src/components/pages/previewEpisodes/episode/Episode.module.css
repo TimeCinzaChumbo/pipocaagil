@@ -1,0 +1,22 @@
+.Episode {
+    border-radius: 16px;
+
+}
+
+.episodeIframe {
+    position: relative;
+    top: 381px;
+    width: 382px;
+    height: 375px;
+    border-radius: 16px;
+
+}
+
+.episodeBlock {
+    position: relative;
+    width: 382px;
+    height: 375px;
+    border-radius: 16px;
+    /* background-color: rgba(255, 0, 0, 0.224); */
+    cursor: pointer;
+}

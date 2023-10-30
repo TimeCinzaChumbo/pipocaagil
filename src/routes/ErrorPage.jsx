@@ -2,7 +2,7 @@ import { Link, useRouteError } from "react-router-dom";
 import { Link as RouterLink } from "react-router-dom";
 import style from "../routes/ErrorPage.module.css";
 
-const ErrorPage = () => {
+function ErrorPage() {
 
     const error = useRouteError();
     return (

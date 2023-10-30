@@ -1,26 +1,31 @@
 import styles from "./About.module.css"
 
-import image6 from "../assets/images/photos/image6.png";
-import instagramIcon from "../assets/images/icons/socialMedia/instagram.png";
-import linkedinIcon from "../assets/images/icons/socialMedia/linkedin.png";
-import facebookIcon from "../assets/images/icons/socialMedia/facebook.png";
-import xIcon from "../assets/images/icons/socialMedia/x.png";
-import youtubeIcon from "../assets/images/icons/socialMedia/youtube.png";
+import image6 from "../../../assets/images/photos/image6.png";
+import instagramIcon from "../../../assets/images/icons/socialMedia/instagram.png";
+import linkedinIcon from "../../../assets/images/icons/socialMedia/linkedin.png";
+import facebookIcon from "../../../assets/images/icons/socialMedia/facebook.png";
+import xIcon from "../../../assets/images/icons/socialMedia/x.png";
+import youtubeIcon from "../../../assets/images/icons/socialMedia/youtube.png";
 
 import { Link as RouterLink } from "react-router-dom";
+import ButtonRouter from "../../common/button/ButtonRouter";
 
 function About() {
     return (
         <div className={styles.about} id="about">
+
             <section className={styles.content}>
+
                 <header className={styles.header}>
                     <p>Sobre Ibson Cabral e Pipóca Ágil</p>
+
                     <h2>Título da biografia e porque devem escutá-lo</h2>
+
                 </header>
 
                 <aside className={styles.contentBiography}>
                     <article className={styles.leftSection}>
-                        <img src={image6} alt="ibson" />
+                        <img src={image6} loading="lazy" alt="ibson" />
                     </article>
 
                     <article className={styles.rightSection}>
@@ -32,12 +37,12 @@ function About() {
                             <p>Sou Head da Jornada Talks da Jornada Colaborativa..Co-autor do Livro de Inovação da Jornada Colaborativa.Co-autor do Livro Jornada Colaborativa.Sou Diretor de Comunicação e Marketing da IIBA BrasilSou o Produtor do Podcast do IIBA Brasil.</p>
                         </section>
 
-                        <RouterLink to="/readMore">
-                            <button className={styles.btnReadMore}>Ler mais</button>
-                        </RouterLink>
+                        <ButtonRouter to="/readMore" size="custom-size-small" color="custom-colors-transparent" text="Ler mais" />
 
                         <div className={styles.socialMedia}>
+
                             <p>Mídia Sociais</p>
+
                             <figure>
                                 <a href="https://www.instagram.com/pipocaagil/" target="_blank"><img src={instagramIcon} alt="instagram" /></a>
                                 <a href="https://www.linkedin.com/company/pipoca-%C3%A1gil/about/" target="_blank"><img src={linkedinIcon} alt="linkedin" /></a>
@@ -48,7 +53,6 @@ function About() {
                         </div>
                     </article>
                 </aside>
-
             </section>
         </div>
     );

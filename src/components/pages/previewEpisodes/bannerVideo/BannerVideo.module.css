@@ -1,0 +1,41 @@
+.bannerVideo {
+    position: relative;
+    top: -33%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 3;
+    text-align: center;
+    width: 636px;
+    padding: 32px;
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.25);
+}
+
+.title {
+    color: #000;
+    font-family: 'Inter';
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 2rem 0;
+}
+
+.by {
+    color: var(--gray-color);
+    font-family: 'Inter';
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.description {
+    color: #4A4A4A;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 27px;
+    margin-bottom: 24px;
+}

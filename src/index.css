@@ -1,16 +1,27 @@
 * {
   margin: 0;
- 
   padding: 0;
   box-sizing: border-box;
   font-family: 'Nunito', sans-serif;
 }
 
 :root {
-  --white-color: #fdfdfd;
-  --gray-color: #4A4A4A;
+  --white: #ffffff;
+
+  --light-grayish-white: #fdfdfd;
+  --light-gray: #f3f3f3;
+  --gray-color: #4a4a4a;
+
   --black-color: #3a3a3a;
-  --red-color: #d30808;
+
+  --light-yellow: #ffdd85;
+  --intense-yellow: #fedd58;
+
+  --pale-rose: #ffa4a4;
+
+  --lavender-purple: #bd88ff;
+
+  --intense-red: #d30808;
 
 }
 
@@ -22,8 +33,7 @@ ul {
   list-style: none;
 }
 
-
 body {
+  min-height: 100vh;
   background-color: var(--white-color);
-  
 }

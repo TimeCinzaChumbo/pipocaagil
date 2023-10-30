@@ -1,7 +1,7 @@
 .home {
     display: flex;
     max-width: 1440px;
-    max-height: 100vh;
+    height: 859px;
     gap: 70px;
     margin: 0 auto;
     padding: 0 72px;
@@ -12,18 +12,18 @@
     width: 100%;
     max-width: 504px;
     height: auto;
-    margin-top: 163px;
+    margin-top: 190px;
 }
 
 .infoHome h1 {
     font-size: 80px;
     margin-bottom: 16px;
-    text-shadow: 5px -2px 0px rgba(255, 212, 94, 1), -3px -2px 0px rgba(255, 213, 99, 1), 2px 0px 0px rgba(255, 207, 96, 1), 0px 8px 7px rgba(255, 207, 96, 1);
+    text-shadow: 5px -2px 0px rgb(255, 212, 94), -3px -2px 0px rgba(255, 213, 99, 1), 2px 0px 0px rgba(255, 207, 96, 1), 0px 8px 7px rgba(255, 207, 96, 1);
 }
 
 .infoHome span {
     font-family: 'Fugaz One', cursive;
-    color: var(--red-color);
+    color: var(--intense-red);
 }
 
 .infoHome span:last-child {
@@ -36,21 +36,9 @@
     margin-bottom: 32px;
 }
 
-.btnKnowMore {
-    font-family: 'Nunito';
-    font-size: 16px;
-    font-weight: 700;
-    color: var(--white-color);
-    padding: 16px 32px 16px 32px;
-    border: 0;
-    border-radius: 4px;
-    background-color: var(--red-color);
-    margin-bottom: 56px;
-    cursor: pointer;
-}
-
 .podcastPlatforms {
     width: 330px;
+    margin-top: 56px;
 }
 
 .podcastPlatforms a:not(:last-child) {
@@ -112,7 +100,7 @@
 .modal2 {
     top: 50%;
     left: 50%;
-    transform: translate(-75%, -533%);
+    transform: translate(-75%, -487%);
     width: 120.68px;
     height: 131.83px;
 }
@@ -139,20 +127,20 @@
 .boxShadow1 {
     width: 219px;
     height: 219px;
-    background-color: #FFD25E;
+    background-color: var(--light-yellow);
 }
 
 .boxShadow2 {
     width: 120.68px;
     height: 120.68px;
-    background-color: #FFD25E;
+    background-color: var(--light-yellow);
     rotate: -8.39deg;
 }
 
 .boxShadow3 {
     width: 101.92px;
     height: 101.92px;
-    background-color: #FFA4A4;
+    background-color: var(--pale-rose);
     rotate: -8.39deg;
 }
 
@@ -164,14 +152,14 @@
 .box1 {
     width: 219px;
     height: 219px;
-    background-color: #BD88FF;
+    background-color: var(--lavender-purple);
     rotate: -7.43deg;
 }
 
 .box2 {
     width: 120.68px;
     height: 120.68px;
-    background-color: #FFA4A4;
+    background-color: var(--pale-rose);
     rotate: 8.39deg;
 }
 
@@ -180,7 +168,7 @@
     height: 101px;
     rotate: -16.04deg;
     text-align: right;
-    background-color: #FFDD85;
+    background-color: var(--light-yellow);
 }
 
 .bannerHome .podcastInvitationBox {
@@ -196,7 +184,7 @@
     width: 306px;
     height: 175px;
     border-radius: 16px;
-    background-color: #fcfcfc;
+    background-color: var(--light-grayish-white);
     -webkit-box-shadow: 1px 3px 10px -3px rgba(0, 0, 0, 0.25);
     -moz-box-shadow: 1px 3px 10px -3px rgba(0, 0, 0, 0.25);
     box-shadow: 3px 3px 6px 0px rgba(0, 0, 0, 0.25);
@@ -212,17 +200,4 @@
     font-weight: 500;
     color: var(--black-color);
     margin-bottom: 16px;
-}
-
-.bannerHome .podcastInvitationBox button {
-    width: 100%;
-    font-size: 1rem;
-    font-family: 'Nunito';
-    font-weight: 700;
-    padding: 16px;
-    border: 0;
-    border-radius: 4px;
-    background-color: var(--red-color);
-    color: var(--white-color);
-    cursor: pointer;
 }

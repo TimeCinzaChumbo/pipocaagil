@@ -1,0 +1,44 @@
+.previousEpisodes {
+    max-width: 1440px;
+    min-height: 1070px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.backgroundContainer {
+    position: relative;
+    top: 297px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+
+    max-width: 1296px;
+    height: 768px;
+    border-radius: 16px;
+    overflow: visible;
+    background: linear-gradient(180deg, #FFA4A4 20.37%, rgba(255, 205, 77, 0.79) 104.77%);
+}
+
+.soundWave {
+    position: relative;
+    top: -58%;
+    left: 50%;
+    transform: translateX(-50%);
+    min-width: 1440px; 
+    height: 500px;
+}
+
+
+
+.videoContainer {    
+    position: absolute;
+    bottom: 5.5%;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 1248px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    gap: 51px;
+}

@@ -1,7 +1,12 @@
-import Menu from './components/Menu';
-import './App.css';
-import Home from './components/Home';
-import About from './components/About';
+import "./App.css";
+
+import Menu from "./components/menu/Menu";
+import Home from "./components/pages/home/Home";
+import About from "./components/pages/about/About";
+import PreviewEpisodes from "./components/pages/previewEpisodes/previewEpisodes/PreviewEpisodes";
+import Modal from 'react-modal';
+
+Modal.setAppElement('#root');
 
 function App() {
   return (
@@ -10,6 +15,8 @@ function App() {
         <Menu />
         <Home />
         <About />
+        <PreviewEpisodes />
+
       </header>
     </div>
   );

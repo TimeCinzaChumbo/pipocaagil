@@ -7,7 +7,7 @@ import reportWebVitals from './reportWebVitals';
 
 import ErrorPage from './routes/ErrorPage';
 import { createBrowserRouter, RouterProvider, Route } from 'react-router-dom';
-import Home from './components/Home';
+import Home from './components/pages/home/Home';
 
 const router = createBrowserRouter([
   {
@@ -28,8 +28,6 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />
   },
 
-
- 
 
 ]);
 

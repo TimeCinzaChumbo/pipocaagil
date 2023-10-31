@@ -8,7 +8,7 @@
     max-width: 1296px;
     padding: 16px;
     border-radius: 16px;
-    background-color: #f3f3f3;
+    background-color: var(--light-gray);
 }
 
 .header {
@@ -67,23 +67,10 @@ h2 {
     margin-bottom: 24px;
 }
 
-.btnReadMore {
-    width: 194px;
-    height: 43px;
-    font-size: 1rem;
-    font-weight: bold;
-    color: var(--red-color);
-    padding: 10px 32px;
-    background-color: transparent;
-    border: 1px solid var(--red-color);
-    border-radius: 8px;
-    cursor: pointer;
-    margin-bottom: 112px;
-}
-
 .socialMedia {
     max-width: 368px;
     padding: 0 16px;
+    margin-top: 112px;
 }
 
 .socialMedia p {

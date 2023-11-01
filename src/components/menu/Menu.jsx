@@ -23,7 +23,7 @@ function Menu() {
                             <ScrollLink to="about" smooth="true" duration={500}>Quem somos</ScrollLink>
                         </li>
                         <li className={styles.navItem}>
-                            <RouterLink to="constructionPage" smooth="true" duration={500}>Episódios</RouterLink>
+                            <ScrollLink to="previewEpisodes" smooth="true" duration={500}>Episódios</ScrollLink>
                         </li>
                         <li className={styles.navItem}>
                             <RouterLink to="constructionPage" smooth="true" duration={500}>Galeria de Fotos</RouterLink>

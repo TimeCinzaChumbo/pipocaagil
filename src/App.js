@@ -5,6 +5,8 @@ import Home from "./components/pages/home/Home";
 import About from "./components/pages/about/About";
 import PreviewEpisodes from "./components/pages/previewEpisodes/previewEpisodes/PreviewEpisodes";
 import Modal from 'react-modal';
+import StreamingEvaluation from "./components/pages/streamingEvaluation/StreamingEvaluation";
+
 
 Modal.setAppElement('#root');
 
@@ -16,7 +18,7 @@ function App() {
         <Home />
         <About />
         <PreviewEpisodes />
-
+        <StreamingEvaluation />
       </header>
     </div>
   );

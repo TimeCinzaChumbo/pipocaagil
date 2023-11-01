@@ -1,0 +1,26 @@
+button {
+    font-size: 'Nunito';
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* tamanho */
+.custom-size-adaptive {
+    width: 100%;
+    padding: 8px 16px;
+}
+
+.size-large {
+    min-width: 307px;
+    padding: 8px 16px;
+}
+
+/* cores */
+.custom-colors-red {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--white);
+    background-color: var(--intense-red);
+    border: 1px solid var(--intense-red);
+}

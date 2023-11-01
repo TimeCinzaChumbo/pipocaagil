@@ -1,0 +1,30 @@
+.button {
+    border: 0;
+    border-radius: 4px;
+    background-color: transparent;
+}
+
+.size-adaptive {
+    width: 100%;
+    padding: 8px 16px;
+}
+
+
+.size-large {
+    min-width: 307px;
+    padding: 8px 16px;
+}
+
+.color-transparent {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--intense-red);
+    border: 1px solid var(--intense-red);
+}
+
+.color-red {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--white);
+    background-color: var(--intense-red);
+}

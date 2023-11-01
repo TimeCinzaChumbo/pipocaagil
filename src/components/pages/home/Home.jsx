@@ -20,6 +20,7 @@ function Home() {
     return (
         <section className={styles.home} id="home">
             <div className={styles.infoHome}>
+
                 <h1><span>Pipoca</span><span> Ágil</span></h1>
 
                 <p>O podcast mais animado do mundo ágil vai te inspirar e acelerar seu conhecimento!</p>
@@ -28,11 +29,12 @@ function Home() {
 
                 <div className={styles.podcastPlatforms}>
                     <p>Disponível nas plataformas de podcast</p>
+
                     <div className={styles.plataform}>
-                        <a href="https://podcasters.spotify.com/pod/show/pipocaagil" target="_blank"><img src={spotifyPodcast} alt="spotify" /></a>
-                        <a href="https://podcasts.apple.com/us/podcast/pipoca-%C3%A1gil/id1490753920?uo=4" target="_blank"><img src={applePodcast} alt="applePodcast" /></a>
-                        <a href="https://overcast.fm/login" target="_blank"><img src={overcastPodcast} alt="overcastPodcast" /></a>
-                        <a href="https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xMGVmYjE4MC9wb2RjYXN0L3Jzcw==" target="_blank"><img src={googlePodcast} alt="googlePodcast" /></a>
+                        <a href="https://podcasters.spotify.com/pod/show/pipocaagil" target="_blank" rel="noopener noreferrer"><img src={spotifyPodcast} alt="spotify" /></a>
+                        <a href="https://podcasts.apple.com/us/podcast/pipoca-%C3%A1gil/id1490753920?uo=4" target="_blank" rel="noopener noreferrer"><img src={applePodcast} alt="applePodcast" /></a>
+                        <a href="https://overcast.fm/login" target="_blank" rel="noopener noreferrer"><img src={overcastPodcast} alt="overcastPodcast" /></a>
+                        <a href="https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xMGVmYjE4MC9wb2RjYXN0L3Jzcw==" target="_blank" rel="noopener noreferrer"><img src={googlePodcast} alt="googlePodcast" /></a>
                     </div>
                 </div>
             </div>
@@ -58,6 +60,7 @@ function Home() {
                     </div>
 
                     <div className={`${styles.modals} ${styles.modal3}`}>
+
                         <div className={`${styles.boxShadow} ${styles.boxShadow3}`}>
                             <div className={`${styles.boxes} ${styles.box3}`}>
                                 <img className="microphone" src={microphoneImage} loading="lazy" alt="microfone" />
@@ -67,7 +70,8 @@ function Home() {
 
                     <div className={styles.podcastInvitationBox}>
                         <div className={styles.boxInfo}>
-                            <p>Agende um epísodio conosco!</p>                           
+
+                            <p>Agende um epísodio conosco!</p>
 
                             <ButtonRouter to="/contact" size="custom-size-average" color="custom-colors-red" text="Contato" />
 

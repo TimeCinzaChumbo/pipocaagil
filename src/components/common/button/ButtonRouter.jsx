@@ -8,9 +8,9 @@ function ButtonRouter({ to, size, color, text }) {
 
     return (
         <RouterLink to={to}>
-            <button className={ButtonRouterClass} type="button">{text}</button>
+            <button className={ButtonRouterClass} type="button" rel="noopener noreferrer">{text}</button>
         </RouterLink>
-        
+
     );
 };
 

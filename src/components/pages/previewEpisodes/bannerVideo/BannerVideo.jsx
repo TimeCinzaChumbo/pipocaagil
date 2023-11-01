@@ -10,6 +10,7 @@ function BannerVideo() {
             <Logo size="large" />
 
             <p className={styles.title}>Pipoca Ágil - Podcast</p>
+            
             <p className={styles.by}>Com Ibson Cabral</p>
 
             <div className={styles.description}>

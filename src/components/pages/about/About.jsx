@@ -42,13 +42,13 @@ function About() {
                         <div className={styles.socialMedia}>
 
                             <p>Mídia Sociais</p>
-
+                            
                             <figure>
-                                <a href="https://www.instagram.com/pipocaagil/" target="_blank"><img src={instagramIcon} alt="instagram" /></a>
-                                <a href="https://www.linkedin.com/company/pipoca-%C3%A1gil/about/" target="_blank"><img src={linkedinIcon} alt="linkedin" /></a>
-                                <a href="https://www.facebook.com/pipocaagil/" target="_blank"><img src={facebookIcon} alt="facebook" /></a>
-                                <a href="https://twitter.com/pipoca_agil" target="_blank"><img src={xIcon} alt="x" /></a>
-                                <a href="https://www.youtube.com/channel/UCb2_j0yVyHR-Djxn7gyycqw" target="_blank"><img src={youtubeIcon} alt="youtube" /></a>
+                                <a href="https://www.instagram.com/pipocaagil/" target="_blank" rel="noopener noreferrer"><img src={instagramIcon} alt="instagram" /></a>
+                                <a href="https://www.linkedin.com/company/pipoca-%C3%A1gil/about/" target="_blank" rel="noopener noreferrer"><img src={linkedinIcon} alt="linkedin" /></a>
+                                <a href="https://www.facebook.com/pipocaagil/" target="_blank" rel="noopener noreferrer"><img src={facebookIcon} alt="facebook" /></a>
+                                <a href="https://twitter.com/pipoca_agil" target="_blank" rel="noopener noreferrer"><img src={xIcon} alt="x" /></a>
+                                <a href="https://www.youtube.com/channel/UCb2_j0yVyHR-Djxn7gyycqw" target="_blank" rel="noopener noreferrer"><img src={youtubeIcon} alt="youtube" /></a>
                             </figure>
                         </div>
                     </article>

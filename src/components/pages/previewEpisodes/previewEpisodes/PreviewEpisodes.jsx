@@ -8,13 +8,13 @@ import Episode from "../episode/Episode";
 function PreviousEpisodes() {
 
     const videos = [
-        'https://www.youtube.com/embed/T25qIpwvTyY?si=44nzCia1gAawtfMx&amp;controls=0',
-        'https://www.youtube.com/embed/xJtSmJTdA94?si=2I3sD7lix-t0-eD8&amp;controls=0',
-        'https://www.youtube.com/embed/sC1Pu7m0XSM?si=OuI3PLzIOOcZ9TRs&amp;controls=0'
+        'https://www.youtube.com/embed/T25qIpwvTyY?si=44nzCia1gAawtfMx&amp;controls=1',
+        'https://www.youtube.com/embed/xJtSmJTdA94?si=2I3sD7lix-t0-eD8&amp;controls=1',
+        'https://www.youtube.com/embed/sC1Pu7m0XSM?si=OuI3PLzIOOcZ9TRs&amp;controls=1'
     ];
 
     return (
-        <section className={styles.previousEpisodes}>
+        <section className={styles.previousEpisodes} id="previewEpisodes">
 
             <div className={styles.backgroundContainer}>
                 <BannerVideo />

@@ -34,7 +34,7 @@ function Episode({ videoUrl }) {
                 isOpen={isModalOpen}
                 videoUrl={videoUrl}
                 onRequestClose={closeModal}
-            />
+            />            
         </div>
     );
 };

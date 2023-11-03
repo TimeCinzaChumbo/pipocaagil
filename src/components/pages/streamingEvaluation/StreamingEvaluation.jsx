@@ -2,7 +2,6 @@ import styles from "./StreamingEvaluation.module.css";
 
 import star from "../../../assets/images/icons/star.png";
 import ButtonExternaLink from "../../common/button/ButtonExternaLink";
-import ButtonScroll from "../../common/button/ButtonScroll";
 
 function StreamingEvaluation() {
     return (
@@ -34,8 +33,6 @@ function StreamingEvaluation() {
                         <ButtonExternaLink size="size-large" color="color-transparent" text="Ouça agora no Spotify" link="https://open.spotify.com/show/5J1scP1l7m7kXK6v5RZS7J" />
                         <ButtonExternaLink size="size-large" color="color-transparent" text="Ouça agora no Itunes" link="https://podcasts.apple.com/br/podcast/pipoca-%C3%A1gil/id1490753920" />
                         <ButtonExternaLink size="size-large" color="color-transparent" text="Ouça agora no Deezer" link="https://www.deezer.com/br/show/1030832" />
-                        
-                        <ButtonScroll size="size-large" to="about" smooth="true" duration="500" text="O Podcast" color="custom-colors-red" />
                     </aside>
                 </div>
             </div>
